@@ -1,0 +1,17 @@
+{
+  "name": "exasol-repo-explorer",
+  "description": "Tools for exploring the Exasol open-source ecosystem from your coding agent.",
+  "owner": {
+    "name": "appilivamsikrishna"
+  },
+  "plugins": [
+    {
+      "name": "exasol-repos",
+      "description": "Search and explore all public repositories of the exasol and exasol-labs GitHub organizations (drivers, virtual schemas, connectors, extensions, examples) via a hosted MCP server.",
+      "source": {
+        "source": "directory",
+        "directory": "./plugin"
+      }
+    }
+  ]
+}

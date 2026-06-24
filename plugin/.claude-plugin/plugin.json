@@ -1,0 +1,12 @@
+{
+  "name": "exasol-repos",
+  "displayName": "Exasol Repo Catalog",
+  "version": "1.0.0",
+  "description": "Search and explore all public repositories of the exasol and exasol-labs GitHub organizations directly from your agent. Backed by a hosted MCP server with a live, cached catalog.",
+  "author": {
+    "name": "appilivamsikrishna"
+  },
+  "homepage": "https://exasol-repo-explorer.vercel.app",
+  "keywords": ["exasol", "mcp", "repositories", "catalog", "drivers", "virtual-schemas"],
+  "license": "MIT"
+}

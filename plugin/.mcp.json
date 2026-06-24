@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "exasol-repos": {
+      "type": "http",
+      "url": "https://exasol-repo-explorer.vercel.app/api/mcp"
+    }
+  }
+}

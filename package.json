@@ -1,0 +1,27 @@
+{
+  "name": "exasol-repo-explorer",
+  "private": true,
+  "type": "module",
+  "version": "2.0.0",
+  "description": "Live explorer for public repos of the exasol and exasol-labs GitHub orgs. Next.js + Upstash Redis cache.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "@upstash/redis": "^1.34.3",
+    "mcp-handler": "^1.0.2",
+    "next": "^15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17"
+  }
+}
