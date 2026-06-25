@@ -1,4 +1,4 @@
-# Exasol Repo Explorer (live)
+# Exasol Repo Explorer (live)  [`Live Preview`](https://github.com/krishna-exasol/exasol-repo-explorer)  
 
 A **Next.js** site to browse all public repositories across the
 [`exasol`](https://github.com/exasol) and [`exasol-labs`](https://github.com/exasol-labs)
