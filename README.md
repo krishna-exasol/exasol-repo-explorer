@@ -1,13 +1,37 @@
-# Exasol Repo Explorer
+<div align="center">
 
-A **Next.js** site to browse all public repositories across the
-[`exasol`](https://github.com/exasol) and [`exasol-labs`](https://github.com/exasol-labs)
-GitHub organizations, with **live numbers cached in Vercel KV (Upstash Redis)**.
+# 🔍 Exasol Repo Explorer
 
-> 🚀 **Live deployment:** This app is deployed on **Vercel**.
-> Replace this with your live URL → **https://exasol-repo-explorer.vercel.app**
->
-> 📦 **Source:** [github.com/krishna-exasol/exasol-repo-explorer](https://github.com/krishna-exasol/exasol-repo-explorer)
+**Browse every public repository across the [`exasol`](https://github.com/exasol) and [`exasol-labs`](https://github.com/exasol-labs) GitHub orgs — with live stats cached at the edge.**
+
+<br/>
+
+[![Live Demo](https://img.shields.io/badge/▶_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://exasol-repo-explorer.vercel.app)
+&nbsp;
+[![Source](https://img.shields.io/badge/Source-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/krishna-exasol/exasol-repo-explorer)
+
+<br/>
+
+![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Upstash Redis](https://img.shields.io/badge/Upstash_Redis-00E9A3?style=flat-square&logo=upstash&logoColor=white)
+![Vercel](https://img.shields.io/badge/Deployed_on_Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP_Server-FF6B35?style=flat-square)
+
+</div>
+
+> **🔗 Live:** https://exasol-repo-explorer.vercel.app &nbsp;·&nbsp; deployed on **Vercel** with stats cached in **Vercel KV (Upstash Redis)**.
+> _(Swap in your real `.vercel.app` URL once deployed.)_
+
+---
+
+## Contents
+
+- [How "live" works](#how-live-works)
+- [Local development](#local-development)
+- [Deploy to Vercel](#deploy-to-vercel)
+- [MCP server](#mcp-server)
+- [Structure](#structure)
 
 ## How "live" works
 
