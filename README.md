@@ -21,7 +21,6 @@
 </div>
 
 > **🔗 Live:** https://exasol-repo-explorer.vercel.app &nbsp;·&nbsp; deployed on **Vercel** with stats cached in **Vercel KV (Upstash Redis)**.
-> _(Swap in your real `.vercel.app` URL once deployed.)_
 
 ---
 
@@ -78,7 +77,7 @@ exercise the live fetch path: `curl http://localhost:3000/api/refresh`
 
    Manual refresh:
    ```bash
-   curl -H "Authorization: Bearer $CRON_SECRET" https://<your-app>.vercel.app/api/refresh
+   curl -H "Authorization: Bearer $CRON_SECRET" https://exasol-repo-explorer.vercel.app/api/refresh
    ```
 
 ## MCP server
@@ -91,7 +90,7 @@ AI agents can query the same catalog. Available tools:
 - `list_categories` — categories with repo counts
 - `get_stats` — totals, per-org counts, stars, top languages, last refresh time
 
-Point an MCP client at `https://<your-app>.vercel.app/api/mcp` (supports both `GET`
+Point an MCP client at `https://exasol-repo-explorer.vercel.app/api/mcp` (supports both `GET`
 and `POST`). The tools read from the same Redis cache / seed fallback as the web UI.
 
 ## Structure
